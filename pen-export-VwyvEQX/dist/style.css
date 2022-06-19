@@ -1,0 +1,88 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+* {
+    box-sizing: border-box;
+}
+.image{
+    width: 100%;
+}
+.row {
+    display: flex;
+    margin-top: auto;
+}
+body{
+    background-color: rgb(67,107,149);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.c-site-header{
+    
+    background-color: rgb(8, 9, 66);
+    color: whitesmoke;
+    height: 100%px;
+    width: 100%;
+    padding: 60px;
+    text-align: center;
+    font-size: 20px;
+}
+.navbar{
+    background-color: rgb(15,77,146);
+    border-style: solid;
+    border-width: 10px 5px;
+    border-color: rgba(15,77,146, 0.6);
+    border-radius: 3px;
+    position: sticky;
+    top: 0;
+}    
+.navbar a{
+    color: rgb(128, 128, 128);
+    text-align: center;
+    padding: 14px, 20px;
+}
+.navbar a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.pics{
+    flex: 50%;
+    padding-right: 20px;
+    float: right;
+    width: 750px;
+    height: 200px;
+}
+
+.video{
+  flex: 50%;  
+  padding: 20px;
+  
+  
+}
+.about-me{
+    text-align: justify;
+    padding: 20px;
+    margin: 2px;
+    color: lightskyblue;
+}
+.c-site-footer{
+    text-align: center;
+    padding: 20px;
+}
+.welcome{
+    padding: 20px;
+    color:azure;
+    text-align: center;
+}
+    
+    
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
